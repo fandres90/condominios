@@ -1,0 +1,16 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "username": "root",
+    "password": "",
+    "database": "bd_condominios",
+    "synchronize": true,
+    "logging": false,
+    "entities": [
+       "condominio/models/**/*.ts"
+    ],
+    "migrations": [
+       "condominio/migration/**/*.ts"
+    ]
+ }
